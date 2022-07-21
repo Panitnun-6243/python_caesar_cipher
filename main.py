@@ -30,5 +30,5 @@ def decrypt(text, shift):
 #Check what user wanted
 if direction == "encode":
   encrypt(text, shift)
-else:
+elif direction == "decode":
   decrypt(text, shift)
